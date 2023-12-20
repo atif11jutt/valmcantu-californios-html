@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'FuturaLT-Book';
+    src: URL('font/FuturaLT-Book.ttf') format('truetype');
+}
+
+body{
+    font-family: 'FuturaLT-Book', sans-serif;
+}
+
+.wrapper{
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+}
+
+.wrapper a{
+    text-decoration: none;
+    color: #000;
+}
+
+.wrapper h1{
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.image-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    gap: 10px;
+}
+
+.image-row img{
+    max-height: 3rem;
+    width: auto;
+    max-width: 100%;
+}
